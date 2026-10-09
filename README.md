@@ -3,7 +3,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EkaterinaGrisha/llm-observability-langfuse/blob/main/llm_observability_langfuse.ipynb)
 [![nbviewer](https://img.shields.io/badge/render-nbviewer-orange)](https://nbviewer.org/github/EkaterinaGrisha/llm-observability-langfuse/blob/main/llm_observability_langfuse.ipynb)
 
-Трассировка запросов, версионирование промптов, A/B-тестирование, эксперименты с параметрами модели и конвейер оценки качества (dataset, experiment, LLM-as-a-Judge) в Langfuse. Работа выполнена в рамках практического задания курса по работе с LLM (практика 1, Langfuse).
+Трассировка запросов, версионирование промптов, A/B-тестирование, эксперименты с параметрами модели и конвейер оценки качества (dataset, experiment, LLM-as-a-Judge) в Langfuse.
 
 **Стек экспериментов:**
 - платформа наблюдаемости — Langfuse Cloud (тариф Hobby);
@@ -25,9 +25,9 @@
 ## Основные результаты
 
 - **Трассировка.** Langfuse фиксирует промпт, ответ, модель с версией (`GigaChat-2:2.0.30.01`), параметры, токены и время каждого шага. На генерацию приходится 99,9% длительности трейса.
-- **Учёт токенов.** Обнаружена особенность интеграции: закэшированная часть промпта GigaChat в Langfuse не учитывается во входных токенах, поэтому полный размер промпта пришлось восстанавливать вручную.
+- **Учёт токенов.** Обнаружена особенность интеграции: закэшированная часть промпта GigaChat в Langfuse не учитывается во входных токенах.
 - **Версии промпта.**
-  - Явные требования к структуре (v2) обеспечили 100% соблюдения формата вместо 0%, сократили ответ на 23% и время генерации на 22%, вдвое снизили разброс длины.
+  - Явные требования к структуре (v2) обеспечили 100% соблюдения формата, сократили ответ на 23% и время генерации на 22%, вдвое снизили разброс длины.
   - Системная роль (v3) дала наибольшее качество (3,74 из 5) и достоверность.
   - Достоверность во всех версиях остаётся низкой: модель дописывает характеристики, которых нет в описании товара.
 - **A/B-тест.** По пользовательской оценке (3,52 и 3,53; p = 0,86) и времени ответа (p = 0,30) варианты не различаются. Вариант B расходует на 15% меньше токенов (p < 10⁻⁶), поэтому он статистически лучше по стоимости.
@@ -57,15 +57,6 @@ requirements.txt                   зависимости
 certs/russian_trusted_root_ca.pem  корневой сертификат Минцифры для проверки SSL GigaChat
 ```
 
-## Воспроизведение
-
-1. Установить зависимости: `pip install -r requirements.txt` (проверено на Python 3.11).
-2. Скопировать `.env.example` в `.env` и указать ключи:
-   - Langfuse — `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY`, `LANGFUSE_HOST`;
-   - GigaChat — `GIGACHAT_CREDENTIALS`;
-   - при необходимости DeepSeek — `DEEPSEEK_API_KEY`. Без него оценщиком будет `GigaChat-2-Max`.
-3. Открыть ноутбук и выполнить ячейки.
-
 При наличии каталога `results/` повторный запуск не создаёт новых трейсов и воспроизводит приведённые результаты. Чтобы провести эксперименты заново в своём проекте Langfuse, нужно установить `RERUN = True`.
 
 Сертификат `certs/russian_trusted_root_ca.pem` загружен с официального ресурса https://www.gosuslugi.ru/crt. Его отпечаток SHA-256: `D2:6D:2D:02:31:B7:C3:9F:92:CC:73:85:12:BA:54:10:35:19:E4:40:5D:68:B5:BD:70:3E:97:88:CA:8E:CF:31`. Сертификат используется только клиентом GigaChat.
@@ -73,20 +64,3 @@ certs/russian_trusted_root_ca.pem  корневой сертификат Мин�
 ## Технологии
 
 Python, Jupyter, Langfuse SDK 4, LangChain, `langchain-gigachat`, `langchain-openai`, pandas, SciPy, Matplotlib.
-
-## English summary
-
-LLM observability with Langfuse, using GigaChat as the generator and DeepSeek as an independent LLM judge. Work covered:
-- request tracing with users, sessions, tags and metadata;
-- prompt versioning in Prompt Management;
-- an A/B test of two prompts with statistical tests;
-- tracing of generation-parameter experiments;
-- a custom evaluation pipeline: a dataset, code-based metrics, LLM-as-a-Judge and run-level metrics.
-
-Key findings:
-- Explicit structural instructions had the largest effect on format compliance, length and latency.
-- The A/B test detected a 15% token saving at indistinguishable quality.
-- Temperature controls diversity, the system prompt controls length and latency, and `max_tokens` only truncates.
-- The main failure mode of the support assistant is inventing facts when the policy is silent.
-
-The notebook is written in Russian.
