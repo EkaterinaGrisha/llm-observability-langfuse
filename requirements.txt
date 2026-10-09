@@ -1,0 +1,11 @@
+langfuse>=4.17,<5
+langchain>=1.4
+langchain-core>=1.6
+langchain-gigachat>=0.5
+langchain-openai>=1.0
+gigachat>=0.2.3,<0.3
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+python-dotenv>=1.0
+ipykernel>=6.29

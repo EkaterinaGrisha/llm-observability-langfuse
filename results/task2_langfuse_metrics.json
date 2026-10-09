@@ -1,0 +1,120 @@
+{
+ "observations": [
+  {
+   "promptName": "product-card",
+   "promptVersion": 1,
+   "count_count": 10,
+   "avg_latency": 3219.2,
+   "avg_inputTokens": 50.8,
+   "avg_outputTokens": 465.3
+  },
+  {
+   "promptName": "product-card",
+   "promptVersion": 3,
+   "count_count": 10,
+   "avg_latency": 2536.6,
+   "avg_inputTokens": 109,
+   "avg_outputTokens": 306.2
+  },
+  {
+   "promptName": "product-card",
+   "promptVersion": 2,
+   "count_count": 10,
+   "avg_latency": 2523.9,
+   "avg_inputTokens": 138.9,
+   "avg_outputTokens": 336.2
+  }
+ ],
+ "scores": [
+  {
+   "name": "format_ok",
+   "tags": [
+    "practice1",
+    "task2",
+    "prompt-v2"
+   ],
+   "count_count": 10,
+   "avg_value": 1
+  },
+  {
+   "name": "format_ok",
+   "tags": [
+    "practice1",
+    "task2",
+    "prompt-v3"
+   ],
+   "count_count": 10,
+   "avg_value": 0.8
+  },
+  {
+   "name": "faithfulness",
+   "tags": [
+    "practice1",
+    "task2",
+    "prompt-v1"
+   ],
+   "count_count": 10,
+   "avg_value": 1.2
+  },
+  {
+   "name": "quality",
+   "tags": [
+    "practice1",
+    "task2",
+    "prompt-v1"
+   ],
+   "count_count": 10,
+   "avg_value": 3.3340000000000005
+  },
+  {
+   "name": "quality",
+   "tags": [
+    "practice1",
+    "task2",
+    "prompt-v3"
+   ],
+   "count_count": 10,
+   "avg_value": 3.7350000000000003
+  },
+  {
+   "name": "faithfulness",
+   "tags": [
+    "practice1",
+    "task2",
+    "prompt-v3"
+   ],
+   "count_count": 10,
+   "avg_value": 2
+  },
+  {
+   "name": "format_ok",
+   "tags": [
+    "practice1",
+    "task2",
+    "prompt-v1"
+   ],
+   "count_count": 10,
+   "avg_value": 0
+  },
+  {
+   "name": "faithfulness",
+   "tags": [
+    "practice1",
+    "task2",
+    "prompt-v2"
+   ],
+   "count_count": 10,
+   "avg_value": 1.5
+  },
+  {
+   "name": "quality",
+   "tags": [
+    "practice1",
+    "task2",
+    "prompt-v2"
+   ],
+   "count_count": 10,
+   "avg_value": 3.6319999999999992
+  }
+ ]
+}

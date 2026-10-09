@@ -1,0 +1,1802 @@
+[
+ {
+  "trace_id": "6dc1df460a0d7575d5a83902626a3e90",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v1"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v1",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 4.269,
+  "generation_latency_s": 4.266,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 1,
+  "input_tokens": 63,
+  "cached_input_tokens": 0,
+  "output_tokens": 489,
+  "total_tokens": 552,
+  "observations": [
+   {
+    "id": "3cde0bcad5faf3ae",
+    "parent": "3c3307e31ae7cd56",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:41:35.007000+00:00",
+    "latency_s": 4.266
+   },
+   {
+    "id": "30479b922fdb0f62",
+    "parent": "3c3307e31ae7cd56",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:41:35.005000+00:00",
+    "latency_s": 0.002
+   },
+   {
+    "id": "3c3307e31ae7cd56",
+    "parent": "04084fee898fa92c",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:41:35.004000+00:00",
+    "latency_s": 4.269
+   },
+   {
+    "id": "04084fee898fa92c",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:41:35.004000+00:00",
+    "latency_s": 4.269
+   }
+  ]
+ },
+ {
+  "trace_id": "4307541140283400f3719cf92ca6e116",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v1"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v1",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 3.368,
+  "generation_latency_s": 3.366,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 1,
+  "input_tokens": 63,
+  "cached_input_tokens": 5,
+  "output_tokens": 527,
+  "total_tokens": 590,
+  "observations": [
+   {
+    "id": "72207efb49f47fc3",
+    "parent": "5e13cfc21c8d7650",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:41:39.274000+00:00",
+    "latency_s": 3.366
+   },
+   {
+    "id": "5e13cfc21c8d7650",
+    "parent": "2018b9cf0115830d",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:41:39.274000+00:00",
+    "latency_s": 3.367
+   },
+   {
+    "id": "4ae3f05a1581fd4d",
+    "parent": "5e13cfc21c8d7650",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:41:39.274000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "2018b9cf0115830d",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:41:39.273000+00:00",
+    "latency_s": 3.368
+   }
+  ]
+ },
+ {
+  "trace_id": "65bf8676eb8369f95e732540ff0b2e1f",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v1"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v1",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.651,
+  "generation_latency_s": 2.647,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 1,
+  "input_tokens": 55,
+  "cached_input_tokens": 5,
+  "output_tokens": 381,
+  "total_tokens": 436,
+  "observations": [
+   {
+    "id": "f3a8a199bd317ce2",
+    "parent": "f52726c5327c15b2",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:41:42.644000+00:00",
+    "latency_s": 2.647
+   },
+   {
+    "id": "f52726c5327c15b2",
+    "parent": "79a5b744fb696fd1",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:41:42.642000+00:00",
+    "latency_s": 2.65
+   },
+   {
+    "id": "410eb7b81ac687ac",
+    "parent": "f52726c5327c15b2",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:41:42.642000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "79a5b744fb696fd1",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:41:42.641000+00:00",
+    "latency_s": 2.651
+   }
+  ]
+ },
+ {
+  "trace_id": "94d6ca295cdd1b0a82244d84b6f89d4d",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v1"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v1",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.235,
+  "generation_latency_s": 2.232,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 1,
+  "input_tokens": 55,
+  "cached_input_tokens": 0,
+  "output_tokens": 337,
+  "total_tokens": 392,
+  "observations": [
+   {
+    "id": "efaf59ed946175b8",
+    "parent": "5b5d1357d62b6cf8",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:41:45.294000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "0a372d8854ab7a75",
+    "parent": "5b5d1357d62b6cf8",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:41:45.294000+00:00",
+    "latency_s": 2.232
+   },
+   {
+    "id": "5b5d1357d62b6cf8",
+    "parent": "15ea7f346a8e934d",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:41:45.293000+00:00",
+    "latency_s": 2.234
+   },
+   {
+    "id": "15ea7f346a8e934d",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:41:45.292000+00:00",
+    "latency_s": 2.235
+   }
+  ]
+ },
+ {
+  "trace_id": "a94f4184d9bfb3f5019ba29d4a7d7689",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v1"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v1",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 3.13,
+  "generation_latency_s": 3.128,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 1,
+  "input_tokens": 53,
+  "cached_input_tokens": 5,
+  "output_tokens": 483,
+  "total_tokens": 536,
+  "observations": [
+   {
+    "id": "59d04665bb19cff5",
+    "parent": "c458b3f1610223c2",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:41:47.528000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "0dd32718b999a53f",
+    "parent": "c458b3f1610223c2",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:41:47.528000+00:00",
+    "latency_s": 3.128
+   },
+   {
+    "id": "c458b3f1610223c2",
+    "parent": "ad0f41e71184cbac",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:41:47.527000+00:00",
+    "latency_s": 3.129
+   },
+   {
+    "id": "ad0f41e71184cbac",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:41:47.527000+00:00",
+    "latency_s": 3.13
+   }
+  ]
+ },
+ {
+  "trace_id": "665b1d2ec9d679cad7cd2c272e641465",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v1"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v1",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 3.866,
+  "generation_latency_s": 3.863,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 1,
+  "input_tokens": 53,
+  "cached_input_tokens": 5,
+  "output_tokens": 564,
+  "total_tokens": 617,
+  "observations": [
+   {
+    "id": "7f9ad1ee87260735",
+    "parent": "6a3cee523022d7e4",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:41:50.659000+00:00",
+    "latency_s": 3.863
+   },
+   {
+    "id": "b870987105a24a7b",
+    "parent": "6a3cee523022d7e4",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:41:50.658000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "6a3cee523022d7e4",
+    "parent": "2cc5c8407a5c8ec9",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:41:50.657000+00:00",
+    "latency_s": 3.866
+   },
+   {
+    "id": "2cc5c8407a5c8ec9",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:41:50.657000+00:00",
+    "latency_s": 3.866
+   }
+  ]
+ },
+ {
+  "trace_id": "f72dd3af860aa2ef3d635b81767f6743",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v1"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v1",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 3.892,
+  "generation_latency_s": 3.89,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 1,
+  "input_tokens": 48,
+  "cached_input_tokens": 5,
+  "output_tokens": 558,
+  "total_tokens": 606,
+  "observations": [
+   {
+    "id": "4a2a60b6b0283bd8",
+    "parent": "e07b29b32f60d2f3",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:41:54.524000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "1932312275f6db40",
+    "parent": "e07b29b32f60d2f3",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:41:54.524000+00:00",
+    "latency_s": 3.89
+   },
+   {
+    "id": "e07b29b32f60d2f3",
+    "parent": "096743e7d44935d8",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:41:54.523000+00:00",
+    "latency_s": 3.892
+   },
+   {
+    "id": "096743e7d44935d8",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:41:54.523000+00:00",
+    "latency_s": 3.892
+   }
+  ]
+ },
+ {
+  "trace_id": "0676efc160ffa1348875c78f15fb2981",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v1"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v1",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.864,
+  "generation_latency_s": 2.862,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 1,
+  "input_tokens": 48,
+  "cached_input_tokens": 5,
+  "output_tokens": 438,
+  "total_tokens": 486,
+  "observations": [
+   {
+    "id": "589120dc74a378e7",
+    "parent": "f1e6c7c8280184a0",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:41:58.417000+00:00",
+    "latency_s": 2.862
+   },
+   {
+    "id": "8ec1b7ea9dd489f7",
+    "parent": "f1e6c7c8280184a0",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:41:58.416000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "f1e6c7c8280184a0",
+    "parent": "0dd0348c72ac17a6",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:41:58.415000+00:00",
+    "latency_s": 2.864
+   },
+   {
+    "id": "0dd0348c72ac17a6",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:41:58.415000+00:00",
+    "latency_s": 2.864
+   }
+  ]
+ },
+ {
+  "trace_id": "14b5cb720e8ba7cc2cf603bab9e696c4",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v1"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v1",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 3.088,
+  "generation_latency_s": 3.086,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 1,
+  "input_tokens": 55,
+  "cached_input_tokens": 5,
+  "output_tokens": 468,
+  "total_tokens": 523,
+  "observations": [
+   {
+    "id": "c5aa860a5ccd540b",
+    "parent": "1a63ff08f2a5ecb7",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:01.280000+00:00",
+    "latency_s": 3.086
+   },
+   {
+    "id": "842a4d343dd96a8b",
+    "parent": "1a63ff08f2a5ecb7",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:01.280000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "ef25a7d929bb7b3f",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:01.279000+00:00",
+    "latency_s": 3.088
+   },
+   {
+    "id": "1a63ff08f2a5ecb7",
+    "parent": "ef25a7d929bb7b3f",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:01.279000+00:00",
+    "latency_s": 3.088
+   }
+  ]
+ },
+ {
+  "trace_id": "aed77f09b6f487c53baa8711e69a2f8e",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v1"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v1",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.854,
+  "generation_latency_s": 2.852,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 1,
+  "input_tokens": 55,
+  "cached_input_tokens": 5,
+  "output_tokens": 408,
+  "total_tokens": 463,
+  "observations": [
+   {
+    "id": "72bc311a97916dfd",
+    "parent": "a883dddacb6d8375",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:04.368000+00:00",
+    "latency_s": 2.852
+   },
+   {
+    "id": "dcefbb817d1bc346",
+    "parent": "a883dddacb6d8375",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:04.367000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "b8f3056fb751b620",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:04.367000+00:00",
+    "latency_s": 2.854
+   },
+   {
+    "id": "a883dddacb6d8375",
+    "parent": "b8f3056fb751b620",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:04.367000+00:00",
+    "latency_s": 2.854
+   }
+  ]
+ },
+ {
+  "trace_id": "952273f2b4d23bca1feba692c60efca3",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v2"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v2",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 3.893,
+  "generation_latency_s": 3.891,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 2,
+  "input_tokens": 154,
+  "cached_input_tokens": 133,
+  "output_tokens": 379,
+  "total_tokens": 533,
+  "observations": [
+   {
+    "id": "a4e17e38f47dd8a6",
+    "parent": "30a2f504ea818979",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:07.223000+00:00",
+    "latency_s": 3.891
+   },
+   {
+    "id": "9b069cfd24513eae",
+    "parent": "30a2f504ea818979",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:07.222000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "30a2f504ea818979",
+    "parent": "0bbfaa51ad52438a",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:07.222000+00:00",
+    "latency_s": 3.892
+   },
+   {
+    "id": "0bbfaa51ad52438a",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:07.221000+00:00",
+    "latency_s": 3.893
+   }
+  ]
+ },
+ {
+  "trace_id": "870c782f8e6e69c5a222c55d75bc8dff",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v2"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v2",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.727,
+  "generation_latency_s": 2.726,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 2,
+  "input_tokens": 154,
+  "cached_input_tokens": 5,
+  "output_tokens": 376,
+  "total_tokens": 530,
+  "observations": [
+   {
+    "id": "64a1c421a8e2ed5f",
+    "parent": "3b7ca60b3ff36213",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:11.115000+00:00",
+    "latency_s": 2.726
+   },
+   {
+    "id": "502662e710e5c19a",
+    "parent": "3b7ca60b3ff36213",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:11.115000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "9703ccc75728faae",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:11.114000+00:00",
+    "latency_s": 2.727
+   },
+   {
+    "id": "3b7ca60b3ff36213",
+    "parent": "9703ccc75728faae",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:11.114000+00:00",
+    "latency_s": 2.727
+   }
+  ]
+ },
+ {
+  "trace_id": "f809504eac953cbfd962fd05ff29ab62",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v2"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v2",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.185,
+  "generation_latency_s": 2.183,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 2,
+  "input_tokens": 146,
+  "cached_input_tokens": 5,
+  "output_tokens": 303,
+  "total_tokens": 449,
+  "observations": [
+   {
+    "id": "6392a4c34de66a54",
+    "parent": "aceb89a2da2b4ea8",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:13.843000+00:00",
+    "latency_s": 2.183
+   },
+   {
+    "id": "c09ca417d1b74899",
+    "parent": "aceb89a2da2b4ea8",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:13.842000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "aceb89a2da2b4ea8",
+    "parent": "f74edc7ef757eb30",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:13.842000+00:00",
+    "latency_s": 2.184
+   },
+   {
+    "id": "f74edc7ef757eb30",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:13.841000+00:00",
+    "latency_s": 2.185
+   }
+  ]
+ },
+ {
+  "trace_id": "29df4ea35201e2f00e2456b8a55ceec6",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v2"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v2",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.125,
+  "generation_latency_s": 2.123,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 2,
+  "input_tokens": 146,
+  "cached_input_tokens": 5,
+  "output_tokens": 305,
+  "total_tokens": 451,
+  "observations": [
+   {
+    "id": "44dc44d9168528e6",
+    "parent": "2693aa3069bccb89",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:16.027000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "41a23f8166386caa",
+    "parent": "2693aa3069bccb89",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:16.027000+00:00",
+    "latency_s": 2.123
+   },
+   {
+    "id": "2693aa3069bccb89",
+    "parent": "2af5ca9c0c708fbb",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:16.027000+00:00",
+    "latency_s": 2.123
+   },
+   {
+    "id": "2af5ca9c0c708fbb",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:16.026000+00:00",
+    "latency_s": 2.125
+   }
+  ]
+ },
+ {
+  "trace_id": "ce199535be5fad62d9f80c6b45275b19",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v2"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v2",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.092,
+  "generation_latency_s": 2.089,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 2,
+  "input_tokens": 144,
+  "cached_input_tokens": 5,
+  "output_tokens": 297,
+  "total_tokens": 441,
+  "observations": [
+   {
+    "id": "e7cfcb63c5b403d4",
+    "parent": "270b0311c12412a3",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:18.153000+00:00",
+    "latency_s": 2.089
+   },
+   {
+    "id": "3933a269074afc0c",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:18.151000+00:00",
+    "latency_s": 2.092
+   },
+   {
+    "id": "29bea097fe440265",
+    "parent": "270b0311c12412a3",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:18.151000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "270b0311c12412a3",
+    "parent": "3933a269074afc0c",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:18.151000+00:00",
+    "latency_s": 2.092
+   }
+  ]
+ },
+ {
+  "trace_id": "182f0885a03c65a298da15560ccc495f",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v2"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v2",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.665,
+  "generation_latency_s": 2.662,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 2,
+  "input_tokens": 144,
+  "cached_input_tokens": 0,
+  "output_tokens": 348,
+  "total_tokens": 492,
+  "observations": [
+   {
+    "id": "d29278aba85c735d",
+    "parent": "9398412db6c6b2d3",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:20.245000+00:00",
+    "latency_s": 2.662
+   },
+   {
+    "id": "9398412db6c6b2d3",
+    "parent": "00b6f50319ffbac3",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:20.244000+00:00",
+    "latency_s": 2.664
+   },
+   {
+    "id": "3455ae576119e742",
+    "parent": "9398412db6c6b2d3",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:20.244000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "00b6f50319ffbac3",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:20.243000+00:00",
+    "latency_s": 2.665
+   }
+  ]
+ },
+ {
+  "trace_id": "bb5a4bcc31882782fb0cfa214ec996ad",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v2"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v2",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.402,
+  "generation_latency_s": 2.399,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 2,
+  "input_tokens": 139,
+  "cached_input_tokens": 5,
+  "output_tokens": 337,
+  "total_tokens": 476,
+  "observations": [
+   {
+    "id": "b859f4535f3f38d9",
+    "parent": "b40166b53d65e1c8",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:22.910000+00:00",
+    "latency_s": 2.399
+   },
+   {
+    "id": "b40166b53d65e1c8",
+    "parent": "1ebdb746a7fd97bb",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:22.909000+00:00",
+    "latency_s": 2.401
+   },
+   {
+    "id": "0bb3832d1ca5571c",
+    "parent": "b40166b53d65e1c8",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:22.909000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "1ebdb746a7fd97bb",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:22.908000+00:00",
+    "latency_s": 2.402
+   }
+  ]
+ },
+ {
+  "trace_id": "7d21c0c9712f966c0618f0e8859e99a1",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v2"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v2",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.396,
+  "generation_latency_s": 2.392,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 2,
+  "input_tokens": 139,
+  "cached_input_tokens": 5,
+  "output_tokens": 344,
+  "total_tokens": 483,
+  "observations": [
+   {
+    "id": "e37750dea0dc4227",
+    "parent": "8dc03e4ae8ca53b7",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:25.313000+00:00",
+    "latency_s": 2.392
+   },
+   {
+    "id": "6b33c58413420cce",
+    "parent": "8dc03e4ae8ca53b7",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:25.312000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "8dc03e4ae8ca53b7",
+    "parent": "91ccd910bff241b5",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:25.311000+00:00",
+    "latency_s": 2.395
+   },
+   {
+    "id": "91ccd910bff241b5",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:25.310000+00:00",
+    "latency_s": 2.396
+   }
+  ]
+ },
+ {
+  "trace_id": "ac70b46718949ea1911b2e7f2222511c",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v2"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v2",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.237,
+  "generation_latency_s": 2.235,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 2,
+  "input_tokens": 146,
+  "cached_input_tokens": 5,
+  "output_tokens": 328,
+  "total_tokens": 474,
+  "observations": [
+   {
+    "id": "8f933aabcde274df",
+    "parent": "e8437fb6d5baf0f7",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:27.707000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "145dc79e1c33ad15",
+    "parent": "e8437fb6d5baf0f7",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:27.707000+00:00",
+    "latency_s": 2.235
+   },
+   {
+    "id": "e8437fb6d5baf0f7",
+    "parent": "293bdfa753590f61",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:27.706000+00:00",
+    "latency_s": 2.237
+   },
+   {
+    "id": "293bdfa753590f61",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:27.706000+00:00",
+    "latency_s": 2.237
+   }
+  ]
+ },
+ {
+  "trace_id": "7a66876b901e5ad12f17fed9e625156f",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v2"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v2",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.541,
+  "generation_latency_s": 2.539,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 2,
+  "input_tokens": 146,
+  "cached_input_tokens": 133,
+  "output_tokens": 345,
+  "total_tokens": 491,
+  "observations": [
+   {
+    "id": "6c9ee385cee2c0e3",
+    "parent": "70005562621dddf4",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:29.944000+00:00",
+    "latency_s": 2.539
+   },
+   {
+    "id": "efe5b6cce0919d10",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:29.943000+00:00",
+    "latency_s": 2.541
+   },
+   {
+    "id": "a00e41c5cb65b293",
+    "parent": "70005562621dddf4",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:29.943000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "70005562621dddf4",
+    "parent": "efe5b6cce0919d10",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:29.943000+00:00",
+    "latency_s": 2.541
+   }
+  ]
+ },
+ {
+  "trace_id": "2fff59c89b8a6de97c4fa81a40063714",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v3"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v3",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 3.689,
+  "generation_latency_s": 3.686,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 3,
+  "input_tokens": 191,
+  "cached_input_tokens": 109,
+  "output_tokens": 337,
+  "total_tokens": 528,
+  "observations": [
+   {
+    "id": "88bbb8603c8d9e64",
+    "parent": "971096bfa438e124",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:32.488000+00:00",
+    "latency_s": 3.686
+   },
+   {
+    "id": "439e52f08ba87b66",
+    "parent": "971096bfa438e124",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:32.487000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "971096bfa438e124",
+    "parent": "6dd51bf95d548c5a",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:32.486000+00:00",
+    "latency_s": 3.688
+   },
+   {
+    "id": "6dd51bf95d548c5a",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:32.485000+00:00",
+    "latency_s": 3.689
+   }
+  ]
+ },
+ {
+  "trace_id": "1913665d0ed5f4004e188ed59119b8e9",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v3"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v3",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.329,
+  "generation_latency_s": 2.326,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 3,
+  "input_tokens": 191,
+  "cached_input_tokens": 109,
+  "output_tokens": 335,
+  "total_tokens": 526,
+  "observations": [
+   {
+    "id": "3c156b8ead7579d6",
+    "parent": "1689dac043e11f58",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:36.176000+00:00",
+    "latency_s": 2.326
+   },
+   {
+    "id": "bf23b3afb6798416",
+    "parent": "1689dac043e11f58",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:36.175000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "1689dac043e11f58",
+    "parent": "758961342c8e2813",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:36.175000+00:00",
+    "latency_s": 2.328
+   },
+   {
+    "id": "758961342c8e2813",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:36.174000+00:00",
+    "latency_s": 2.329
+   }
+  ]
+ },
+ {
+  "trace_id": "242c87648e5ddc5d061e30313f89c0b0",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v3"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v3",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.014,
+  "generation_latency_s": 2.012,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 3,
+  "input_tokens": 183,
+  "cached_input_tokens": 109,
+  "output_tokens": 293,
+  "total_tokens": 476,
+  "observations": [
+   {
+    "id": "a612d4453bf1734e",
+    "parent": "90a4c9da0950ca73",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:38.505000+00:00",
+    "latency_s": 2.012
+   },
+   {
+    "id": "9a58971f9feba078",
+    "parent": "90a4c9da0950ca73",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:38.504000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "90a4c9da0950ca73",
+    "parent": "be7435eea3eaad97",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:38.504000+00:00",
+    "latency_s": 2.013
+   },
+   {
+    "id": "be7435eea3eaad97",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:38.503000+00:00",
+    "latency_s": 2.014
+   }
+  ]
+ },
+ {
+  "trace_id": "1025d1b59e9bd3e6cb4f9e5ecea3c5b4",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v3"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v3",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 1.986,
+  "generation_latency_s": 1.983,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 3,
+  "input_tokens": 183,
+  "cached_input_tokens": 109,
+  "output_tokens": 276,
+  "total_tokens": 459,
+  "observations": [
+   {
+    "id": "9ad4cbd6170ff13a",
+    "parent": "8a7d6256333fed7f",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:40.519000+00:00",
+    "latency_s": 1.983
+   },
+   {
+    "id": "8a7d6256333fed7f",
+    "parent": "ae811f405fdcd078",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:40.518000+00:00",
+    "latency_s": 1.985
+   },
+   {
+    "id": "4e6d8a3f605896bc",
+    "parent": "8a7d6256333fed7f",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:40.518000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "ae811f405fdcd078",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:40.517000+00:00",
+    "latency_s": 1.986
+   }
+  ]
+ },
+ {
+  "trace_id": "bb22cffa90428b68d26e38f83a467b0d",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v3"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v3",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.283,
+  "generation_latency_s": 2.281,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 3,
+  "input_tokens": 181,
+  "cached_input_tokens": 109,
+  "output_tokens": 321,
+  "total_tokens": 502,
+  "observations": [
+   {
+    "id": "ac6f507b63fd3538",
+    "parent": "e1b170e54b837570",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:42.505000+00:00",
+    "latency_s": 2.281
+   },
+   {
+    "id": "e1b170e54b837570",
+    "parent": "5b6a2847504cdccf",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:42.504000+00:00",
+    "latency_s": 2.282
+   },
+   {
+    "id": "478f139a0362eee9",
+    "parent": "e1b170e54b837570",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:42.504000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "5b6a2847504cdccf",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:42.503000+00:00",
+    "latency_s": 2.283
+   }
+  ]
+ },
+ {
+  "trace_id": "83cb5dbfdb0a35bdc5efe3b69bcd6c5c",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v3"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v3",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.503,
+  "generation_latency_s": 2.501,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 3,
+  "input_tokens": 181,
+  "cached_input_tokens": 109,
+  "output_tokens": 339,
+  "total_tokens": 520,
+  "observations": [
+   {
+    "id": "73901ffaa60db952",
+    "parent": "804f5d9c3cf0893b",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:44.789000+00:00",
+    "latency_s": 2.501
+   },
+   {
+    "id": "531c9c6b4b228c3b",
+    "parent": "804f5d9c3cf0893b",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:44.788000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "804f5d9c3cf0893b",
+    "parent": "1170bee4b06fa6be",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:44.787000+00:00",
+    "latency_s": 2.503
+   },
+   {
+    "id": "1170bee4b06fa6be",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:44.787000+00:00",
+    "latency_s": 2.503
+   }
+  ]
+ },
+ {
+  "trace_id": "153d22f8e5a8ec326115c61055439f62",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v3"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v3",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.121,
+  "generation_latency_s": 2.118,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 3,
+  "input_tokens": 176,
+  "cached_input_tokens": 109,
+  "output_tokens": 288,
+  "total_tokens": 464,
+  "observations": [
+   {
+    "id": "4806c28a8cbb95e2",
+    "parent": "b4a0f7a466abe5a5",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:47.293000+00:00",
+    "latency_s": 2.118
+   },
+   {
+    "id": "4ea119ada6df5acd",
+    "parent": "b4a0f7a466abe5a5",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:47.292000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "b4a0f7a466abe5a5",
+    "parent": "805cb34b3463e681",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:47.291000+00:00",
+    "latency_s": 2.12
+   },
+   {
+    "id": "805cb34b3463e681",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:47.291000+00:00",
+    "latency_s": 2.121
+   }
+  ]
+ },
+ {
+  "trace_id": "6d331ae4268117c02f5ed16e356297b6",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v3"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v3",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 3.084,
+  "generation_latency_s": 3.081,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 3,
+  "input_tokens": 176,
+  "cached_input_tokens": 109,
+  "output_tokens": 278,
+  "total_tokens": 454,
+  "observations": [
+   {
+    "id": "bb866757ddfecf1d",
+    "parent": "b75c1fef7488f170",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:49.414000+00:00",
+    "latency_s": 3.081
+   },
+   {
+    "id": "b75c1fef7488f170",
+    "parent": "bed1b2a223dcd7c7",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:49.413000+00:00",
+    "latency_s": 3.083
+   },
+   {
+    "id": "0ab096773ec72f71",
+    "parent": "b75c1fef7488f170",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:49.413000+00:00",
+    "latency_s": 0.001
+   },
+   {
+    "id": "bed1b2a223dcd7c7",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:49.412000+00:00",
+    "latency_s": 3.084
+   }
+  ]
+ },
+ {
+  "trace_id": "3263d29d39ca011ae6354f05283d1084",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v3"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v3",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 2.365,
+  "generation_latency_s": 2.363,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 3,
+  "input_tokens": 183,
+  "cached_input_tokens": 109,
+  "output_tokens": 323,
+  "total_tokens": 506,
+  "observations": [
+   {
+    "id": "939d46a210e2a3e8",
+    "parent": "73e741ab2c07e607",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:52.497000+00:00",
+    "latency_s": 2.363
+   },
+   {
+    "id": "3f70ba6504b99e93",
+    "parent": "73e741ab2c07e607",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:52.497000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "904a78db1db98be9",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:52.496000+00:00",
+    "latency_s": 2.365
+   },
+   {
+    "id": "73e741ab2c07e607",
+    "parent": "904a78db1db98be9",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:52.496000+00:00",
+    "latency_s": 2.365
+   }
+  ]
+ },
+ {
+  "trace_id": "9d1e47676821590e7aaa167c2d7881d5",
+  "trace_name": "product-card",
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v3"
+  ],
+  "user_id": "tester",
+  "session_id": "task2-v3",
+  "environment": "homework",
+  "public": false,
+  "trace_latency_s": 3.018,
+  "generation_latency_s": 3.015,
+  "model": "GigaChat-2:2.0.30.01",
+  "model_parameters": {
+   "temperature": 0.3,
+   "max_tokens": 800
+  },
+  "prompt_name": "product-card",
+  "prompt_version": 3,
+  "input_tokens": 183,
+  "cached_input_tokens": 109,
+  "output_tokens": 272,
+  "total_tokens": 455,
+  "observations": [
+   {
+    "id": "c6d371bd173b4b1d",
+    "parent": "e8f5f901d2dc1289",
+    "type": "GENERATION",
+    "name": "GigaChat",
+    "start": "2026-10-09T13:42:54.863000+00:00",
+    "latency_s": 3.015
+   },
+   {
+    "id": "e8f5f901d2dc1289",
+    "parent": "1135777f59e6072e",
+    "type": "CHAIN",
+    "name": "RunnableSequence",
+    "start": "2026-10-09T13:42:54.862000+00:00",
+    "latency_s": 3.017
+   },
+   {
+    "id": "d70c20b74e74fa6c",
+    "parent": "e8f5f901d2dc1289",
+    "type": "CHAIN",
+    "name": "ChatPromptTemplate",
+    "start": "2026-10-09T13:42:54.862000+00:00",
+    "latency_s": 0.0
+   },
+   {
+    "id": "1135777f59e6072e",
+    "parent": null,
+    "type": "SPAN",
+    "name": "product-card",
+    "start": "2026-10-09T13:42:54.861000+00:00",
+    "latency_s": 3.018
+   }
+  ]
+ }
+]

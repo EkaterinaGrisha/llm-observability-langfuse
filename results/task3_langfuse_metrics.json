@@ -1,0 +1,42 @@
+{
+ "observations": [
+  {
+   "promptName": "product-card-ab",
+   "promptVersion": 1,
+   "count_count": 21,
+   "avg_latency": 2540.095238095238,
+   "avg_outputTokens": 318.5238095238095
+  },
+  {
+   "promptName": "product-card-ab",
+   "promptVersion": 2,
+   "count_count": 19,
+   "avg_latency": 2429.842105263158,
+   "avg_outputTokens": 256.2105263157895
+  }
+ ],
+ "scores": [
+  {
+   "name": "user_rating",
+   "tags": [
+    "practice1",
+    "task3",
+    "ab-test",
+    "variant-a"
+   ],
+   "count_count": 21,
+   "avg_value": 3.5238095238095237
+  },
+  {
+   "name": "user_rating",
+   "tags": [
+    "practice1",
+    "task3",
+    "ab-test",
+    "variant-b"
+   ],
+   "count_count": 19,
+   "avg_value": 3.526315789473684
+  }
+ ]
+}

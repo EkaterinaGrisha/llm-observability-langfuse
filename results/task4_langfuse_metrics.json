@@ -1,0 +1,147 @@
+[
+ {
+  "tags": [
+   "practice1",
+   "judge",
+   "task3"
+  ],
+  "count_count": 40,
+  "avg_latency": 4018.65,
+  "p95_latency": 6671.849999999999,
+  "avg_outputTokens": 656.15
+ },
+ {
+  "tags": [
+   "practice1",
+   "judge",
+   "task2"
+  ],
+  "count_count": 30,
+  "avg_latency": 5800.233333333334,
+  "p95_latency": 8739.999999999996,
+  "avg_outputTokens": 1081.9
+ },
+ {
+  "tags": [
+   "practice1",
+   "task3",
+   "ab-test",
+   "variant-a"
+  ],
+  "count_count": 21,
+  "avg_latency": 2540.095238095238,
+  "p95_latency": 3294,
+  "avg_outputTokens": 318.5238095238095
+ },
+ {
+  "tags": [
+   "practice1",
+   "task3",
+   "ab-test",
+   "variant-b"
+  ],
+  "count_count": 19,
+  "avg_latency": 2429.842105263158,
+  "p95_latency": 3319,
+  "avg_outputTokens": 256.2105263157895
+ },
+ {
+  "tags": [
+   "practice1",
+   "task4",
+   "series-temperature"
+  ],
+  "count_count": 15,
+  "avg_latency": 2742.133333333333,
+  "p95_latency": 3582.2,
+  "avg_outputTokens": 363.3333333333333
+ },
+ {
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v1"
+  ],
+  "count_count": 10,
+  "avg_latency": 3219.2,
+  "p95_latency": 4096.799999999999,
+  "avg_outputTokens": 465.3
+ },
+ {
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v2"
+  ],
+  "count_count": 10,
+  "avg_latency": 2523.9,
+  "p95_latency": 3366.7499999999986,
+  "avg_outputTokens": 336.2
+ },
+ {
+  "tags": [
+   "practice1",
+   "task2",
+   "prompt-v3"
+  ],
+  "count_count": 10,
+  "avg_latency": 2536.6,
+  "p95_latency": 3413.749999999999,
+  "avg_outputTokens": 306.2
+ },
+ {
+  "tags": [
+   "practice1",
+   "task4",
+   "series-system_prompt"
+  ],
+  "count_count": 9,
+  "avg_latency": 2698.1111111111113,
+  "p95_latency": 4525,
+  "avg_outputTokens": 320.8888888888889
+ },
+ {
+  "tags": [
+   "practice1",
+   "task4",
+   "series-max_tokens"
+  ],
+  "count_count": 9,
+  "avg_latency": 2449.5555555555557,
+  "p95_latency": 3451.2,
+  "avg_outputTokens": 290.55555555555554
+ },
+ {
+  "tags": [
+   "practice1",
+   "task1",
+   "baseline"
+  ],
+  "count_count": 4,
+  "avg_latency": 3061.75,
+  "p95_latency": 3561.95,
+  "avg_outputTokens": 287.25
+ },
+ {
+  "tags": [
+   "practice1",
+   "task1",
+   "test"
+  ],
+  "count_count": 3,
+  "avg_latency": 3075,
+  "p95_latency": 3163.3999999999996,
+  "avg_outputTokens": 280.6666666666667
+ },
+ {
+  "tags": [
+   "practice1",
+   "task1",
+   "experiment1"
+  ],
+  "count_count": 3,
+  "avg_latency": 2961.3333333333335,
+  "p95_latency": 3157,
+  "avg_outputTokens": 283
+ }
+]

@@ -1,0 +1,90 @@
+[
+ {
+  "id": "2215a213fea5777d",
+  "parent": "f15fcb34ddb2b8ec",
+  "type": "GENERATION",
+  "name": "ChatOpenAI",
+  "start": "2026-10-09T13:55:02.498000+00:00",
+  "latency_s": 1.852
+ },
+ {
+  "id": "f15fcb34ddb2b8ec",
+  "parent": "8e64c89ced752c8a",
+  "type": "CHAIN",
+  "name": "RunnableSequence",
+  "start": "2026-10-09T13:55:02.497000+00:00",
+  "latency_s": 1.854
+ },
+ {
+  "id": "77435aae344c95a4",
+  "parent": "f15fcb34ddb2b8ec",
+  "type": "CHAIN",
+  "name": "ChatPromptTemplate",
+  "start": "2026-10-09T13:55:02.497000+00:00",
+  "latency_s": 0.001
+ },
+ {
+  "id": "8e64c89ced752c8a",
+  "parent": "1fe5b80c87f1a7ca",
+  "type": "EVALUATOR",
+  "name": "judge_evaluator",
+  "start": "2026-10-09T13:55:02.496000+00:00",
+  "latency_s": 1.855
+ },
+ {
+  "id": "ddf1528d6ee68a51",
+  "parent": "1fe5b80c87f1a7ca",
+  "type": "EVALUATOR",
+  "name": "code_evaluator",
+  "start": "2026-10-09T13:55:02.495000+00:00",
+  "latency_s": 0.001
+ },
+ {
+  "id": "1fe5b80c87f1a7ca",
+  "parent": "0bb3fdcf4fe6de2b",
+  "type": "SPAN",
+  "name": "experiment-item-evaluation",
+  "start": "2026-10-09T13:55:02.495000+00:00",
+  "latency_s": 1.856
+ },
+ {
+  "id": "a6d1c1e736934ac1",
+  "parent": "72e5a84975bb11a6",
+  "type": "GENERATION",
+  "name": "GigaChat",
+  "start": "2026-10-09T13:55:00.189000+00:00",
+  "latency_s": 2.305
+ },
+ {
+  "id": "72e5a84975bb11a6",
+  "parent": "b83ccef688180a52",
+  "type": "CHAIN",
+  "name": "RunnableSequence",
+  "start": "2026-10-09T13:55:00.188000+00:00",
+  "latency_s": 2.307
+ },
+ {
+  "id": "0eea9de704744a0d",
+  "parent": "72e5a84975bb11a6",
+  "type": "CHAIN",
+  "name": "ChatPromptTemplate",
+  "start": "2026-10-09T13:55:00.188000+00:00",
+  "latency_s": 0.001
+ },
+ {
+  "id": "b83ccef688180a52",
+  "parent": "0bb3fdcf4fe6de2b",
+  "type": "SPAN",
+  "name": "experiment-item-task",
+  "start": "2026-10-09T13:54:59.993000+00:00",
+  "latency_s": 2.502
+ },
+ {
+  "id": "0bb3fdcf4fe6de2b",
+  "parent": null,
+  "type": "SPAN",
+  "name": "experiment-item-run",
+  "start": "2026-10-09T13:54:59.993000+00:00",
+  "latency_s": 4.358
+ }
+]
